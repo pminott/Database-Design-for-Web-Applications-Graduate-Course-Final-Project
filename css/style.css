@@ -1,0 +1,52 @@
+.jumbotron{ 
+    background: rgb(0, 0, 0); /* This is for ie8 and below */
+    background: rgba(0, 0, 0, 0);
+    color: black; 
+    background-image: url("../images/geek1.jpg");
+    background-repeat: no-repeat;
+    height: 450px;
+}
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body{
+   background-image:url('../images/bg.jpg');
+    background-repeat:no-repeat;
+    display: compact;
+    -webkit-background-size: 100% auto;
+    -moz-background-size: 100% auto;
+    -o-background-size: 100% auto;
+    background-size: 100% auto;
+    
+    min-height:0px !important;
+     margin-bottom: 75px;    
+}
+
+html,body{
+    height: 100%;   
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 75px;
+  background-color: #f5f5f5;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}

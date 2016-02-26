@@ -1,0 +1,108 @@
+html,body{
+    height: 100%;   
+}
+.navbar-brand a{
+    font-size: 18px;   
+}
+.logo{
+    
+    font-size: 18px;   
+}
+.nav a{
+    color:#5a5a5a;
+    font-size:18px;
+    font-weight:bold;
+    padding-top:14px;
+    padding-bottom:14px;
+    padding-left:10px;
+    padding-right:10px;
+    text-transform: uppercase;
+    
+}
+.nav li{
+    display:inline;
+}
+.jumbotron {
+    width: 100%;
+    height: 500px;
+    background: url("titans.jpeg") no-repeat center center fixed;
+}
+
+.jumbotron h1{
+    color:black;
+    font-size:48px;
+    font-weight:bold;
+    font-family: 'Shift', sans-serif;
+}
+
+.jumbotron p{
+    color:black;
+	font-weight:bold;
+    font-size:20px;
+}
+
+.jumbotron .container{
+    position:relative;
+    top:100px;
+}
+
+
+.learn-more{
+    background-color:#f7f7f7;
+}
+.learn-more h3{
+    font-family:'Shift', sans-serif;
+    font-size:18px;
+}
+
+.learn-more a{
+    color:#00b0ff;
+}
+
+.neighborhood-guides{
+    background-color:#efefef;
+    border-bottom:1px solid #dbdbdb;
+}
+.neighborhood-guides h2{
+    color:#393c3d;
+    font-size: 24px;
+}
+
+.neighborhood-guides p{
+    font-size:15px;
+    margin-bottom: 13px;
+}
+
+.page-width{
+    width: 90%;   
+    
+}
+.half-width{
+    width: 90%;   
+    
+}
+
+.hidden{
+    display: none;
+
+}
+
+#fandomList{
+    height: 250px;
+    -webkit-column-count: 3;
+       -moz-column-count: 3;
+            column-count: 3; /*3 is just placeholder -- can be anything*/
+}
+
+#fandomList li{
+    display: inline-block;
+    padding-bottom: 30px;
+    
+}
+
+.profile {
+    width:200px;
+    height:120px;
+    
+    
+}
